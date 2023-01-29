@@ -61,8 +61,33 @@ h1, h2 {
 
 /* Background image */
 
+#backgorund-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #background-image {
     height: 600px;
     width: 100%;
     background-image: url('../images/background-image.jpg') no-repeat center center;
+
+    /* Anmiates zoom effext on loading page */
+    animation-name: background-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+
+
+
+/* Creats the level of zoom for background-image */
+@keyframes backgound-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
