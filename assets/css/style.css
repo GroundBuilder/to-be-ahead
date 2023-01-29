@@ -58,3 +58,11 @@ h1, h2 {
 .active {
     border-bottom: 2px solid #fff;
 }
+
+/* Background image */
+
+#background-image {
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/background-image.jpg') no-repeat center center;
+}
