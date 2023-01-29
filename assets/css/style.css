@@ -165,11 +165,11 @@ hr {
   }
 
   .center-about-heading {
-    /*width: 65%; */
+    width: 65%;
     margin: 0 auto;
     line-height: 15px;
     clear: both;  
-    margin-bottom: 50px;
+    margin-bottom: 0px;
   }
 
   .right-about-heading h2 {
