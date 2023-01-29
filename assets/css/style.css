@@ -113,3 +113,31 @@ h1, h2 {
     position: absolute;
 
 }
+
+/* Get Loaded */
+
+#get-loaded {
+    height: 400px;
+
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blueviolet;
+}
+
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: greenyellow;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: palevioletred;
+}
