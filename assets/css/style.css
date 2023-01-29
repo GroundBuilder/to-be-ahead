@@ -3,22 +3,22 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    border: none;
 }
 
 body {
 
     font-family: 'Cantarell', sans-serif;
     font-weight: 300;
-    color: ;
-    background-color: #bbd8ba;
+    color: black;
+    /*    background-color: #bbd8ba; */
 }
 
 /* headings and logo */
 
 h1, h2 {
     font-family: 'Dosis', sans-serif;
-    color: ;
+    color: black;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -61,16 +61,21 @@ h1, h2 {
 
 /* Background image */
 
-#backgorund-outer {
-    height: 600px;
+#background-outer {
+    height: 500px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
+#cover-text, #cover-text h2 {
+    color: #fff;
+
+}
 #background-image {
-    height: 600px;
+    height: 500px;
     width: 100%;
-    background-image: url('../images/background-image.jpg') no-repeat center center;
+    background-image: url("../images/background-image.jpg") no-repeat center center;
 
     /* Anmiates zoom effext on loading page */
     animation-name: background-zoom;
@@ -78,9 +83,6 @@ h1, h2 {
     animation-fill-mode: forwards;
 
 }
-
-
-
 
 /* Creats the level of zoom for background-image */
 @keyframes backgound-zoom {
@@ -90,4 +92,24 @@ h1, h2 {
     to{
         transform: scale(1.1);
     }
+}
+
+#cover-text{
+    font-size: 130%;
+    font-family: Dosis, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+
 }
