@@ -168,8 +168,8 @@ hr {
     width: 65%;
     margin: 0 auto;
     line-height: 15px;
-    clear: both;  
-    margin-bottom: 0px;
+    margin-bottom: 50px;
+
   }
 
   .right-about-heading h2 {
@@ -182,4 +182,10 @@ hr {
 
 .center-about-heading h2 {
     text-align: center;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px;
+    font-size: 280%;
 }
