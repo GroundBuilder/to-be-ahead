@@ -94,6 +94,14 @@ h1, h2 {
     }
 }
 
+/* Class times */
+#times {
+    background-image: url("../images/bridge-forest.jpg") no-repet;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+}
+
 #cover-text{
     font-size: 130%;
     font-family: Dosis, sans-serif;
