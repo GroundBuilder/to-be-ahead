@@ -213,7 +213,6 @@ hr {
 
 footer {
     height: 100px;
-    background-color: red;
 }
 /*
 #icons {
@@ -247,20 +246,32 @@ footer {
 #icons {
     font-size: 110%;
     letter-spacing: 4px;
-    background-color: red;
 }
 
 #icons {
     line-height: 100px;
     background-color: white;
-
 }
 
-#icons li {
+#icons > li {
     float: right;
     margin-right: 40px;
     list-style-type: none;
-    background-color: red;
+    display: inline;
 
 
+}
+
+/* Gallery */
+
+#photos{
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+
+}
+
+#photos > img {
+    width: 100%;
 }
