@@ -75,7 +75,7 @@ h1, h2 {
 #background-image {
     height: 500px;
     width: 100%;
-    background-image: url("../images/background-image.jpg") no-repeat center center;
+    background-image: url('assets/images/background-image.jpg') no-repeat center center;
 
     /* Anmiates zoom effext on loading page */
     animation-name: background-zoom;
@@ -192,7 +192,7 @@ hr {
 
 /* Class times */
 #times {
-    background-image: url("../images/bridge-forest.jpg") no-repet;
+    background-image: url("assets/images/bridge-forest.jpg") no-repet;
     background-size: cover;
     overflow: hidden;
     width: 100%;
@@ -212,7 +212,7 @@ hr {
 }
 
 footer {
-    height: 250px;
+    height: 100px;
     background-color: red;
 }
 /*
@@ -252,7 +252,7 @@ footer {
 
 #icons {
     line-height: 100px;
-    background-color: red;
+    background-color: white;
 
 }
 
