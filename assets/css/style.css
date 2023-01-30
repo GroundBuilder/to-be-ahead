@@ -210,3 +210,57 @@ hr {
     box-sizing: border-box;
 
 }
+
+footer {
+    height: 250px;
+    background-color: red;
+}
+/*
+#icons {
+    text-align: center;
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    line-height: 50px;
+    
+}*/
+/*
+#icons > li {
+    display: inline;
+}*/
+/*
+#icons li {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+
+    float: right;
+    margin-right: 40px;
+    list-style-type: none;
+}
+#icons li{
+    float: right;
+    margin-right: 40px;
+    list-style-type: none;
+}*/
+#icons {
+    font-size: 110%;
+    letter-spacing: 4px;
+    background-color: red;
+}
+
+#icons {
+    line-height: 100px;
+    background-color: red;
+
+}
+
+#icons li {
+    float: right;
+    margin-right: 40px;
+    list-style-type: none;
+    background-color: red;
+
+
+}
