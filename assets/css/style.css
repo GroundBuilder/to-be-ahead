@@ -369,7 +369,7 @@ footer {
     #menu {
         clear: left;
         float: left;
-        margin-left: 30px;
+        margin-left: 5px;
         margin-bottom: 20px;
         line-height: 25px;
     }
@@ -380,7 +380,7 @@ footer {
 
     #get-loaded {
         width: 90%;
-        height: 1300px;
+        height: 500px;
         margin: 0 auto;
     }
 
