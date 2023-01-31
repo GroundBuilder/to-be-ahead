@@ -205,7 +205,7 @@ hr {
     height: 300px;
     float: left;
     padding: 30px 0 0 10px;
-    text-align: center;
+    /* text-align: center; */
     border: 2px solid white;
     box-sizing: border-box;
 
@@ -260,7 +260,7 @@ footer {
     height: 950px;
     width: 100%;
     background-size: cover;
-    /*background-position: center;*/
+    background-position: center;
     clear: left;        
 }
 
@@ -330,7 +330,6 @@ footer {
     color: rgb(241, 109, 107);
 }  
 
-/*  rgb(187, 216, 186)  */
 /* Media queries */
 
 /* FOr lagre to medium screens size from 1300px wide and down */
@@ -369,7 +368,7 @@ footer {
     #menu {
         clear: left;
         float: left;
-        margin-left: 5px;
+        margin-left: 0;
         margin-bottom: 20px;
         line-height: 25px;
     }
@@ -396,5 +395,9 @@ footer {
     .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 0 20px;
+    }
+
+    #times h2 {
+        letter-spacing: 0px;
     }
 }
