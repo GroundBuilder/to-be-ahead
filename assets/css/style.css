@@ -75,7 +75,7 @@ h1, h2 {
 #background-image {
     height: 500px;
     width: 100%;
-    background-image: url('assets/images/background-image.jpg') no-repeat center center;
+    background-image: url("../images/hero-image.webp") no-repeat center center;
 
     /* Anmiates zoom effext on loading page */
     animation-name: background-zoom;
@@ -341,4 +341,5 @@ footer {
     .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 0 20px;
+    }
 }
