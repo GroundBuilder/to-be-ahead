@@ -280,6 +280,18 @@ footer {
     width: 100%;
 }
 
+/* Form section*/
+
+.form-section {
+    background: url(../images/hiking.jpg) no-repeat center center;
+    height: 950px;
+    width: 100%;
+    background-size: cover;
+    /*background-position: center;*/
+    clear: left;
+        
+}
+
 /* Media queries */
 
 /* FOr lagre to medium screens size from 1300px wide and down */
