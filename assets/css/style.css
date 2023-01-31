@@ -222,6 +222,7 @@ footer {
 #icons {
     font-size: 110%;
     letter-spacing: 4px;
+
 }
 
 #icons {
@@ -234,7 +235,7 @@ footer {
     margin-right: 40px;
     list-style-type: none;
     display: inline;
-
+    text-align: right;
 
 }
 
@@ -319,7 +320,7 @@ footer {
     padding: 10px 28px 10px 28px;
     text-align: center;
     font-size: 100%;
-    background-color: rga(241, 109, 107);
+    background-color: rgb(241, 109, 107);
     color: #3a3a3a;
     display: block;
 }
