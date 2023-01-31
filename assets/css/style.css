@@ -253,6 +253,12 @@ footer {
     width: 100%;
 }
 
+#crisis-video {
+    margin:auto,
+    width: auto;
+    height: auto;
+}
+
 /* Form section*/
 
 .form-section {
@@ -399,5 +405,11 @@ footer {
 
     #times h2 {
         letter-spacing: 0px;
+    }
+    
+    #crisis-video {
+        margin:auto,
+        width: auto;
+        height: auto;
     }
 }
