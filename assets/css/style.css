@@ -218,35 +218,7 @@ hr {
 footer {
     height: 100px;
 }
-/*
-#icons {
-    text-align: center;
-    font-size: 200%;
-    margin: 1%;
-    padding: 5%;
-    line-height: 50px;
-    
-}*/
-/*
-#icons > li {
-    display: inline;
-}*/
-/*
-#icons li {
-    font-size: 200%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
 
-    float: right;
-    margin-right: 40px;
-    list-style-type: none;
-}
-#icons li{
-    float: right;
-    margin-right: 40px;
-    list-style-type: none;
-}*/
 #icons {
     font-size: 110%;
     letter-spacing: 4px;
@@ -307,8 +279,57 @@ footer {
    border: 1px solid #3a3a3a;
    border-radius: 2px;
    margin: 5px 0 15px 0;
+   background: transparent;
 }
 
+.text-labels {
+    width: 100%; 
+    height: 25px;
+    margin: 5px 0 15px 0;
+ }
+
+ .text-label:hover {
+    border-color: rgb(241, 109, 107);
+ }
+
+ .radio-button {
+    margin: 10px 0 15px 0;
+    font-size: 1.2rem;
+ }
+
+ .signup-button {
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 10px 28px 10px 28px;
+    text-align: center;
+    font-size: 100%;
+    background-color: rga(241, 109, 107);
+    color: #3a3a3a;
+    display: block;
+}
+
+.signup-button:hover {
+    background-color: #3a3a3a;
+    color: rgb(241, 109, 107);
+}    
+
+.reset-button {
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 10px 28px 10px 28px;
+    text-align: center;
+    font-size: 100%;
+    background-color: rga(241, 109, 107);
+    color: #3a3a3a;
+    display: block;
+}
+
+.reset-button:hover {
+    background-color: #3a3a3a;
+    color: rgb(241, 109, 107);
+}  
+
+/*  rgb(187, 216, 186)  */
 /* Media queries */
 
 /* FOr lagre to medium screens size from 1300px wide and down */
