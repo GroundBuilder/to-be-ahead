@@ -85,7 +85,7 @@ h1, h2 {
 }
 
 /* Creats the level of zoom for background-image */
-@keyframes backgound-zoom {
+@keyframes background-zoom {
     from{
         transform: scale(1);
     }
@@ -256,9 +256,9 @@ footer {
 }
 
 #crisis-video {
-    margin:auto;
     width: auto;
     height: auto;
+
 }
 
 /* Form section*/
@@ -359,7 +359,7 @@ footer {
 @media screen and (max-width: 1300px)  {
     #get-loaded {
         width:65%;
-        height: 1300px;
+        height: 1000px;
         margin: 0 auto;
     }
     #welcome {
