@@ -1,10 +1,12 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome GroundBuilder,
+#To Be Ahead
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+**To Be Ahead** is the website that give some thoughts what you need to prepare for a home crisis, what you can have in you everyday carry-bag (EDC) and what to have in a bag if you have to leav your home, bug out bag (BOB).
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+If you whant to know more you can sign up to a weeks cours in one of three intresst.
+
+##Featurs
 
 ## Gitpod Reminders
 
