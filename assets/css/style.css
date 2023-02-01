@@ -213,12 +213,18 @@ hr {
 
 #times h2 {
     color:rgb(173, 255, 47);
+    text-align: center;
+}
+
+#times h3 {
+    text-align: center;
 }
 
 footer {
     height: 100px;
     display: flex;
     justify-content: space-evenly;
+    font-size: 2rem;
 }
 
 #icons {
@@ -359,7 +365,7 @@ footer {
 @media screen and (max-width: 1300px)  {
     #get-loaded {
         width:65%;
-        height: 1000px;
+        height: 500px;
         margin: 0 auto;
     }
     #welcome {
@@ -425,7 +431,8 @@ footer {
     }
     
     #crisis-video {
-        margin:auto;
+        margin-left: auto;
+        margin-right: auto;
         width: auto;
         height: auto;
     }
