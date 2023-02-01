@@ -217,6 +217,8 @@ hr {
 
 footer {
     height: 100px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #icons {
