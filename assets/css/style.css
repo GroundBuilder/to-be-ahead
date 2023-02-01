@@ -254,7 +254,7 @@ footer {
 }
 
 #crisis-video {
-    margin:auto,
+    margin:auto;
     width: auto;
     height: auto;
 }
@@ -413,7 +413,7 @@ footer {
     }
     
     #crisis-video {
-        margin:auto,
+        margin:auto;
         width: auto;
         height: auto;
     }
