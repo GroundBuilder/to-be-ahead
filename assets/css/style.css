@@ -340,6 +340,16 @@ footer {
     background-color: #3a3a3a;
     color: rgb(241, 109, 107);
 }  
+.thankyou-box {
+    margin:150px 10% 0 0;
+    color: #3a3a3a;
+    background-color: rgb(187, 216, 186, 0.8);
+    max-width:350px;
+    position: absolute;
+    left: 40%;
+    padding: 30px;
+    text-align: center;
+}
 
 /* Media queries */
 
