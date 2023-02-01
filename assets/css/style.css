@@ -125,7 +125,6 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: none;
 }
 
 hr {
@@ -138,14 +137,12 @@ hr {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: none;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: none;
 }
 
 .left-about-heading {
@@ -323,7 +320,7 @@ footer {
     padding: 10px 28px 10px 28px;
     text-align: center;
     font-size: 100%;
-    background-color: rga(241, 109, 107);
+    background-color: #fff;
     color: #3a3a3a;
     display: block;
 }
