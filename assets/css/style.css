@@ -433,4 +433,6 @@ footer {
         width: auto;
         height: auto;
     }
+    #times div {
+        width: 50%;
 }
