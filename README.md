@@ -56,7 +56,21 @@ If you whant to know more you can sign up to a weeks cours in one of three intre
 - I tested the responsivity for different devices, from desktop page, tablet size, down to mobile device size of the page.
 - I tested this site in different browser to check it works. Chorme, Firefox, Opera, Microsoft Edge.
 - I tested so the navigation, menu, gallery and sign up form is readable in different screens.
+- I have tested and confrim that the form works: required the * fileds and only accept a correct email address for the submit button work. The reset button works also.
 
+## Bugs
+- Big bug was the responsive image at the homepage. It was broken, and then I saw the funktion in it was also broken.
+- the video took up to much space, and it didn't fit for mobile devices. 
+- All current bugs is fixed as to my knowledge.
 
+## Validator Testing
+- HTML
+    - No error were returned when passing through the official W3C valiator
+
+- CSS
+    - No errors were returne when passing through the official (Jigsaw) validator
+
+- Accessibility
+    - I confirmed that the colors and fonts chosen are easy to read and accessible by running it thorugh lighthouse in devtools
 
 
