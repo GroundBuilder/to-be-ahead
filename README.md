@@ -21,3 +21,42 @@ If you whant to know more you can sign up to a weeks cours in one of three intre
 - A 404 Page is implemented if a user nagigates to a broken link. In that page will there be a link back to the home page.
 
 ### Home page
+- An effectfull first picture that will zoom in a little bit.
+- You will get a short presentation what this site is about.
+- you will get a short summation on what the three courses is about.
+
+### Examples
+- A portfolio whit images of things we will touch through the course.
+- Little movie from the swedish goverment about home crisis.
+
+### Sign Up
+- Choose between one of three courses to join. 
+    - First Name (required)
+    - Last Name (required)
+    - Phone number (optional)
+    - Email adress (required)
+
+- On successfull submission of the contact form, the user will navigated to the "Thank you" page and a tabel whit the scheduel.
+
+### Existing Features
+- Responsive design
+- Sign Up page whit a responsive form and whit a "Thank you" page.
+- 404 -site
+- Gallery whit a resoponsive images.
+- Three nice courses to choose between and a scheduel for all of them.
+
+## Design
+
+### First layot
+- Used paper and pencil to draw the big layout of the homepage
+- Used paper and pencil to find out where to put Heading and site navigation.
+
+## Testing
+
+- I tested the responsivity for different devices, from desktop page, tablet size, down to mobile device size of the page.
+- I tested this site in different browser to check it works. Chorme, Firefox, Opera, Microsoft Edge.
+- I tested so the navigation, menu, gallery and sign up form is readable in different screens.
+
+
+
+

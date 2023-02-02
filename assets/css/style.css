@@ -341,8 +341,9 @@ footer {
     text-align: center;
     font-size: 100%;
     background-color: rgb(241, 109, 107);
-    color: #3a3a3a;
+    color: #000000;
     display: block;
+    font-weight: 700;
 }
 
 .reset-button:hover {
