@@ -360,6 +360,11 @@ footer {
     text-align: center;
 }
 
+.thankyou-box > table, th, td {
+    border: 2px solid #3a3a3a;
+    border-collapse: collapse;
+    padding: 0 5px 0 5px;
+}
 /* Media queries */
 
 /* FOr lagre to medium screens size from 1300px wide and down */
@@ -398,11 +403,16 @@ footer {
     #menu {
         clear: left;
         float: left;
-        margin-left: 0;
+        margin-right: 0;
         margin-bottom: 20px;
         line-height: 25px;
     }
-     
+
+    #menu li{
+        margin-right: 20px;
+
+    }
+
     #cover-text {
         left: 0;
     }
@@ -447,6 +457,11 @@ footer {
         display: flex;
         justify-content: space-evenly;
         font-size: 1.5rem;
+    }
+    .thankyou-box {
+        margin: 20% 0 0 0;
+        left: 5%;
+        padding: 10px;
     }
 
 }
