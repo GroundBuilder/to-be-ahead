@@ -58,6 +58,40 @@ If you whant to know more you can sign up to a weeks cours in one of three intre
 - I tested so the navigation, menu, gallery and sign up form is readable in different screens.
 - I have tested and confrim that the form works: required the * fileds and only accept a correct email address for the submit button work. The reset button works also.
 
+## Deployment
+
+### Version Control
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘to-be-ahead’.
+
+The following git commands were used throughout development to push code to the remote repo:
+
+`git add .` - This command was used to add the file(s) to the staging area before they are committed.
+
+` git commit -m “commit message”` - This command was used to commit changes to the local repository queue ready for the final step.
+
+`git push` - This command was used to push all committed code to the remote repository on github.
+
+### Deployment to Github Pages
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the Settings tab
+    - From the menu on left select 'Pages'
+    - From the source section drop-down menu, select the Branch: main
+    - Click 'Save'
+    - A live link will be displayed in a green banner when published successfully.
+    
+The live link can be found here - https://groundbuilder.github.io/to-be-ahead/
+
+### Clone the Repository Code Locally
+Navigate to the GitHub Repository you want to clone to use locally:
+
+Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
+
+The project will now of been cloned on your local machine for use.
+
 ## Bugs
 - Big bug was the responsive image at the homepage. It was broken, and then I saw the funktion in it was also broken.
 - the video took up to much space, and it didn't fit for mobile devices. 
