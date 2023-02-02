@@ -120,7 +120,7 @@ The project will now of been cloned on your local machine for use.
     For the Index
     ![Index](docs/testing/html-index.png)
     For the Gallary
-    ![Gallery](docs/testing/css-gallery.png)
+    ![Gallery](docs/testing/html-gallery.png)
     For the Sign Up
     ![SignUp](docs/testing/html-signup.png)
     For the Thank You
@@ -140,7 +140,8 @@ The project will now of been cloned on your local machine for use.
     ![CSS](docs/testing/css-css.png)
 
 - Accessibility
-    - I confirmed that the colors and fonts chosen are easy to read and accessible by running it thorugh lighthouse in devtools
+    - I confirmed that the colors and fonts chosen are easy to read and accessible by running it thorugh lighthouse in devtools. Big images took it down.
+    ![Lighthouse](docs/testing/lighthouse-index.jpg)
 
 ## Credits
 
