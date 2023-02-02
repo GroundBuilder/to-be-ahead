@@ -433,6 +433,16 @@ footer {
         width: auto;
         height: auto;
     }
+
     #times div {
         width: 50%;
+    }
+
+    footer {
+        height: 80px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.5rem;
+    }
+
 }
