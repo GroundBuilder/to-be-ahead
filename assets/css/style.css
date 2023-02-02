@@ -169,16 +169,20 @@ hr {
 
   }
 
-  .right-about-heading h2 {
+  .right-about-heading h2, ul {
     text-align: center;
+    list-style-type: none;
 }
 
-.left-about-heading h2 {
+.left-about-heading h2, ul {
     text-align: center;
+    list-style-type: none;
+    
 }
 
-.center-about-heading h2 {
+.center-about-heading h2, ul {
     text-align: center;
+    list-style-type: none;
 }
 
 #welcome {
