@@ -4,6 +4,8 @@
 
 If you whant to know more you can sign up to a weeks cours in one of three intresst.
 
+![Mocup](docs/readme_images/mockup.png)
+
 ## Featurs
 
 ### Navigation
@@ -53,6 +55,21 @@ If you whant to know more you can sign up to a weeks cours in one of three intre
 
 ## Testing
 
+### Resonsiveness
+All pages were tested to ensure responsiveness on screen sizes from 375px and upwards. Tested on different browsers: Chrome, Edge, Firefox and Opera.
+
+Steps to test:
+
+1. Open browser and navigate to To Be Ahead
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 320px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
+
+Expected:
+
+Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap
+
 - I tested the responsivity for different devices, from desktop page, tablet size, down to mobile device size of the page.
 - I tested this site in different browser to check it works. Chorme, Firefox, Opera, Microsoft Edge.
 - I tested so the navigation, menu, gallery and sign up form is readable in different screens.
@@ -78,7 +95,7 @@ The following git commands were used throughout development to push code to the 
     - From the source section drop-down menu, select the Branch: main
     - Click 'Save'
     - A live link will be displayed in a green banner when published successfully.
-    
+
 The live link can be found here - https://groundbuilder.github.io/to-be-ahead/
 
 ### Clone the Repository Code Locally
@@ -95,16 +112,44 @@ The project will now of been cloned on your local machine for use.
 ## Bugs
 - Big bug was the responsive image at the homepage. It was broken, and then I saw the funktion in it was also broken.
 - the video took up to much space, and it didn't fit for mobile devices. 
-- All current bugs is fixed as to my knowledge.
+- The error that occors in in W3C validation, had no more time to fix it. Saw it to late.
 
 ## Validator Testing
 - HTML
-    - No error were returned when passing through the official W3C valiator
-
+    - Error were returned for the <iform> when passing through the official W3C valiator. 
+    For the Index
+    ![Index](docs/testing/html-index.png)
+    For the Gallary
+    ![Gallery](docs/testing/css-gallery.png)
+    For the Sign Up
+    ![SignUp](docs/testing/html-signup.png)
+    For the Thank You
+    ![Thank you](docs/testing/html-thankyou.png)
 - CSS
     - No errors were returne when passing through the official (Jigsaw) validator
+    
+    For the Index
+    ![Index](docs/testing/css-index.png)
+    For the Gallary
+    ![Gallery](docs/testing/css-gallery.png)
+    For the Sign Up
+    ![SignUp](docs/testing/css-signup.png)
+    For the Thank You
+    ![Thank you](docs/testing/css-thankyou.png)
+    For the CSS-code
+    ![CSS](docs/testing/css-css.png)
 
 - Accessibility
     - I confirmed that the colors and fonts chosen are easy to read and accessible by running it thorugh lighthouse in devtools
+
+## Credits
+
+### Content
+- The code for the zooming image was taken from the CI "Love Running project"
+- [W3school](https://www.w3schools.com/) find how to fix video appear better on screen. How to fix mute to movie.
+
+### Media
+- All the images in the site was taken from [Pexels](http://www.pexels.com)
+
 
 
