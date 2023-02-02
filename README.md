@@ -53,6 +53,23 @@ If you whant to know more you can sign up to a weeks cours in one of three intre
 - Used paper and pencil to draw the big layout of the homepage
 - Used paper and pencil to find out where to put Heading and site navigation.
 
+## Technologies
+- HTML
+    - The structure of the Website was developed using HTML as the main language.
+- CSS
+    - The Website was styled using custom CSS in an external file.
+- GitHub
+    - Source code is hosted on GitHub and delpoyed using Git Pages.
+- Git
+    - Used to commit and push code during the development opf the Website
+- Font Awesome
+    - Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section.
+- Tinyjpg
+    - https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
+- Favicon.io
+    - favicon files were created at https://favicon.io/favicon-converter/
+
+
 ## Testing
 
 ### Resonsiveness
@@ -74,6 +91,17 @@ Website is responsive on all screen sizes and no images are pixelated or stretch
 - I tested this site in different browser to check it works. Chorme, Firefox, Opera, Microsoft Edge.
 - I tested so the navigation, menu, gallery and sign up form is readable in different screens.
 - I have tested and confrim that the form works: required the * fileds and only accept a correct email address for the submit button work. The reset button works also.
+
+## Functional Testing
+
+### Navigation Links
+ - index.html OK
+ - gallery.html OK
+ - signup.html OK
+ - thankyou.html OK
+ 
+ ### form
+ The form responds. Get you a messege when everyhing is in. Required is working and email field.
 
 ## Deployment
 
@@ -142,12 +170,16 @@ The project will now of been cloned on your local machine for use.
 - Accessibility
     - I confirmed that the colors and fonts chosen are easy to read and accessible by running it thorugh lighthouse in devtools. Big images took it down.
     ![Lighthouse](docs/testing/lighthouse-index.jpg)
+    - Conrast was good. Only one Error, but if I fix it here it will be a error in HTML-validation. https://wave.webaim.org/
+    ![Wave](docs/testing/wave-index.png)
+
 
 ## Credits
 
 ### Content
 - The code for the zooming image was taken from the CI "Love Running project"
 - [W3school](https://www.w3schools.com/) find how to fix video appear better on screen. How to fix mute to movie.
+- [Favicon](http://favicon.io/) To make icon wo browser-tab.
 
 ### Media
 - All the images in the site was taken from [Pexels](http://www.pexels.com)
